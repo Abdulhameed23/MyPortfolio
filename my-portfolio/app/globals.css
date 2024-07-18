@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8ffec
+}
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 2% 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoRow {
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  
+}
+
