@@ -22,7 +22,7 @@ import spring from '../../public/icons8-spring-boot-96.png';
 
 const ImageSlider = () => {
   return (
-    <div className='flex flex-row flex-wrap p-14 gap-12 justify-center '>
+    <div className='flex flex-row flex-wrap p-14 gap-16 justify-center '>
         <Image src={aws} alt="AWS Image" width={96} height={96} />
         <Image src={docker} alt="Docker Image" width={96} height={96} />
         <Image src={git} alt="Git Image" width={96} height={96} />
