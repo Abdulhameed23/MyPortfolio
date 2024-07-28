@@ -7,7 +7,7 @@ import croppedgrad from "../public/croppedgrad.jpeg";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen">
     <main className='flex flex-col items-center mx-auto px-[3%] xl:max-w-[1500px]'>
       <Link className='' href={"https://www.linkedin.com/in/hameed-karim/"}>
           <Image className='mt-5 hover:scale-150 transition ease-in-out delay-150' src={linkedin} alt="linkedin" />
